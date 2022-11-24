@@ -7,12 +7,11 @@ import ch.epfl.cs107.play.math.Vector;
 
 public class Village extends SimpleArea {
 
-   /* @Override
+    @Override
     protected void createArea() {
-        if (registerActor( new SimpleGhost(new Vector(18,7), "ghost", new TextGraphics))) {
-            ???????
+        SimpleGhost ghost  = SimpleGhost(new Vector(18,7), "ghost", );
         }
-    }*/
+    
 
     @Override
     public String getTitle() {
